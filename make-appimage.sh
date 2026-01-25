@@ -12,7 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/dosbox-x.svg
 export DESKTOP=/usr/share/applications/dosbox-x.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/dosbox-x
+quick-sharun /usr/bin/dosbox-x -defaultdir . -silent -exit
 cp -r /usr/share/dosbox-x/ .AppDir/bin/
 
 # Additional changes can be done in between here
