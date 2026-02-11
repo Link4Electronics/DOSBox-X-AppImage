@@ -13,7 +13,7 @@ export DESKTOP=/usr/share/applications/dosbox-x.desktop
 
 # Deploy dependencies
 #mv -v /usr/share/dosbox-x/ .AppDir/bin
-quick-sharun /usr/bin/dosbox-x
+quick-sharun /usr/bin/dosbox-x -nopromptfolder
 
 # Additional changes can be done in between here
 
